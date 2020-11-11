@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   node:
-    image: node
+    image: node:alpine
     volumes:
       - .:/workspace
     working_dir: /workspace
