@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  node:
+    image: node
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
